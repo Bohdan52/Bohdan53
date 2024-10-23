@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab_4</title>
+</head>
+<body>
+    <h1>Моя перша HTML-форма</h1>
+    <form name="my form"form action="https://httpbin.org/post" method="post">
+        <label>
+            <br>Імʼя:
+            <input type="text" name="firstname">
+           </label><br>
+           <label>
+             <br>Дата народження:
+             <input type="date" name="data">
+           </label><br>
+           <label>
+             <br>Імейл:
+             <input type="email" name="Email">
+           </label><br>
+           <label><br>Повідомлення:
+             <textarea name="message"></textarea>
+           </label><br><b>Ваші улюблені напої?</b><br> 
+           <label>
+           <input type="checkbox" name="tea">Чай<br>
+           </label>
+           <label>
+            <input type="checkbox" name="coffe">Кава<br>
+           </label>
+          <label>
+            <input type="checkbox" name="wine">Вино<br> 
+           <label>
+            <input type="checkbox" name="beer">Пиво<br>
+           </label>
+           <br><b>Моя національність</b><br>
+    <label>
+    <input type="radio" name="national">Українець
+    </label><br>
+     <label>
+        <input type="radio" name="national">Поляк
+         </label><br>
+     <label>
+       <input type="radio" name="national">Румун
+        </label><br>
+    <button type="submit">Надіслати</button>
+    <button type="reset">Очистити</button>
+    <br>
+          </p></form>
+         <picture>
+            <source srcset="https://picsum.photos/300/500" media="(max-width: 468px)">
+            <source srcset="https://picsum.photos/1000/400" media="(min-width: 469px)">
+            <img src="https://picsum.photos/1000/400" alt="Description of the image">
+         </picture> 
+</body>
+</html> 
